@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Quiz Belieber</title>
+
+    <link rel="stylesheet" href="login.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="card">
+
+        <div class="imagem">
+            <img src="./img/justin.webp" alt="Justin Bieber">
+        </div>
+
+        <h1>
+            BEM-VINDO AO
+            <span>QUIZ BELIEBER</span>
+        </h1>
+
+        <p>
+            Entre para descobrir o quanto você conhece sobre Justin Bieber!
+        </p>
+
+        <form id="formLogin">
+
+            <input
+                type="text"
+                id="nome"
+                placeholder="Digite seu nome"
+                required
+            >
+
+            <input
+                type="password"
+                id="senha"
+                placeholder="Digite sua senha"
+                required
+            >
+
+            <button type="submit">
+                entrar
+            </button>
+
+        </form>
+
+        <p id="mensagem"></p>
+
+    </div>
+
+    <script src="login.js"></script>
+
+</body>
+
+</html>
